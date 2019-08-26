@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<HTMLDocumentField name="ОписаниеНового" id="1">
+			<DataPath>ОписаниеНового</DataPath>
+			<Visible>false</Visible>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ОписаниеНовогоКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ОписаниеНовогоРасширеннаяПодсказка" id="3"/>
+		</HTMLDocumentField>
+		<Pages name="СтраницыВерсий" id="4">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы версий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыВерсийРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<Page name="Версия2_0_6_7" id="6">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2.0.6.7</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия2 0 6 7</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Версия2_0_6_7РасширеннаяПодсказка" id="7"/>
+					<ChildItems>
+						<Pages name="СтраницыИнформации" id="11">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы информации</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы информации</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>Swipe</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыИнформацииРасширеннаяПодсказка" id="12"/>
+							<ChildItems>
+								<Page name="ПринятиеЗадачНаИсполнение" id="15">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Принятие задач на исполнение</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Принятие задач на исполнение</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ПринятиеЗадачНаИсполнениеРасширеннаяПодсказка" id="16"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаПринятиеЗадачНаИсполнение" id="22">
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<NonselectedPictureText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пометьте вашу задачу принятой на исполнение, если вы начали над ней работать.</v8:content>
+												</v8:item>
+											</NonselectedPictureText>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаПринятиеЗадачНаИсполнениеКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="КартинкаПринятиеЗадачНаИсполнениеРасширеннаяПодсказка" id="24"/>
+										</PictureDecoration>
+									</ChildItems>
+								</Page>
+								<Page name="ОтметкаОбъектовФлагами" id="17">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отметка объектов флагами</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Принятие задач на исполнение</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>HorizontalIfPossible</Group>
+									<ExtendedTooltip name="ОтметкаОбъектовФлагамиРасширеннаяПодсказка" id="18"/>
+									<ChildItems>
+										<PictureDecoration name="КартинкаОтметкаОбъектовФлагами" id="25">
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<NonselectedPictureText>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Теперь можно пометить письма, задачи и поручения флажками.</v8:content>
+												</v8:item>
+											</NonselectedPictureText>
+											<FileDragMode>AsFile</FileDragMode>
+											<ContextMenu name="КартинкаОтметкаОбъектовФлагамиКонтекстноеМеню" id="26"/>
+											<ExtendedTooltip name="КартинкаОтметкаОбъектовФлагамиРасширеннаяПодсказка" id="27"/>
+										</PictureDecoration>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ОписаниеНового" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание нового</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

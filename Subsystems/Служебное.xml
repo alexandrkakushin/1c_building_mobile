@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="718902af-a543-468b-856f-f0300a1fc31a">
+		<Properties>
+			<Name>Служебное</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служебное</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДемоДанныеВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменВызовСервераПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">37c45f9f-f1e4-4436-9fd2-61afe28437ee</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменФормированиеСообщенийВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ПутьКаталогаФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ТекущаяСессияСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ЭтоЧистаяБаза</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.ОбменССервером</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкаПодключения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОтображениеПротоколаСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СообщениеОПроблеме</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СообщениеРазработчикам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Синхронизация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДлительнаяОперация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗадачаНеУспешноеВыполнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЗадачаУспешноеВыполнение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресВебСервиса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресЦентральнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВерсияАренды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВыгружатьПротоколСобытийНаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаПоследнегоОбновления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДиагональЭкрана</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЕстьНеотправленныеДанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИдентификаторПоследнегоЗагруженногоСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИмяОперационнойСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.КодУстройства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальныйРазмерФайла</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НомерПоследнейЗагруженнойЧастиСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОтправлятьДанныеСразу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПериодПервичнойЗагрузкиДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоддерживаемыеВерсииФорматаОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПодробнаяИнформацияОСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПользовательЦентральнойБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоследняяОтправленнаяНаСерверЗаписьПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СессияСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СрокУстареванияДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">cfe36fc6-f878-40fa-80d9-e96cbe3e63f0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">91cbcd37-2ae7-4c27-9298-2b509efe0674</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЭтоДемоРежим</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыНастроекОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыСобытийПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f631351a-165e-4a05-bf14-ec93717a0e30</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДатыЗагрузкиОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИзмененныеНастройкиСинхронизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОчередьСообщенийНаСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПолученныеДанныеОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПротоколСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСписокСобытийПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокВидыСобытийПротокола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОбновитьСписок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОбновитьВнимание</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСПротоколомСобытийВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПарольПользователя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Поддержка</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="85b27215-eece-4a61-94e9-cb12e9a0fa5e">
+		<Properties>
+			<Name>ЗаявкиНаОбслуживание</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявки на обслуживание</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">827e4f7c-d45d-4671-aca9-82de680566ec</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">24c6ddfb-4560-47dd-b2a3-91b87d89dac6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">48f78aff-592d-47d6-981a-17e1ccd80d3b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВажностьПисем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПапокПисем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РолиАдресатовВПисьме</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3602f989-d95a-4407-a856-47cee47b9834</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fbb4ea14-0cee-442e-9073-99f2f46b4552</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">82f49b06-4559-46fc-9235-00ec09f1532f</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">7a93b44d-8aaf-46a3-bcb3-1d666b7cb189</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0fbfd60a-6ce3-4bc5-b383-caf857372380</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">66d6b61d-1c95-4d71-b0a1-574be3f53fdc</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">432e4683-8060-4491-8d7a-0a8fa8a4fea1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a6866669-784b-4eb7-8b33-d3172ebb0c09</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0a888eb8-75e5-48a7-81b1-bb78cb43a07a</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">91cbcd37-2ae7-4c27-9298-2b509efe0674</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f5a65a87-56d8-42ba-b13c-72e650c5c17d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2016a1f3-72ac-47d7-b36e-0e99cf5586a0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоУмолчаниюОтвечатьВсем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПомечатьПрочтеннымиПриОткрытии</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПомечатьПисьмаПрочтеннымиПриПредПросмотреПериод</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоказыватьТолькоНепрочтенныеПисьма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПоказыватьПредпросмотрВСпискеПисем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПодтверждатьУдаление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">231dfdb7-02b4-45e6-a5f2-560b5f785683</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">af42fa68-d098-447f-9578-c62f3319c76c</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">abc26072-cf0e-4156-8da6-68e6a5fcbbc0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВключатьВложенияПриПересылке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВключатьВложенияПриОтвете</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделПочта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.НеПрочитанные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаСменитьУчетнуюЗапись</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПрочтенноеПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПереслатьБелая</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПереслать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПеренаправитьЗадачу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПереместитьВПапкуБелая</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПереместитьВПапку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОтправитьПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОтветитьВсемБелая</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОтветитьВсем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОтветитьБелая</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаОтветить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаНепрочтенноеПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаНаписатьПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокСостоянийПисем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокСкрепка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокПиктограммФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокНовоеПисьмо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.НовоеСписаниеДенежныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0a0a7c71-893c-48b6-8ac7-5a9b2fac486b</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6c5b98a1-f6e4-467d-aabe-651fd0ba4c5e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">dc96c1b7-2b65-44be-82b5-6fccd11b51d4</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8eeb0ba7-cd78-41c7-92e3-bc628d64f4dd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">37c45f9f-f1e4-4436-9fd2-61afe28437ee</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4aab5d08-bd4f-4a51-8edc-5d37be6978d0</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КомандаПапка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c8b0b2a4-a9ee-4a7f-8e6f-cba7169008d3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыОтвета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КоллекцияСтрокКнопка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a17a006c-2240-4c63-8afd-8eb6e8ae069d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">005c3b7e-d28a-4e57-814d-11f10c25bc06</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыЗаявокНаОбслуживание</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

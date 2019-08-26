@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Поддержка</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Support</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnChangeDisplaySettings">ПриИзмененииПараметровЭкрана</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаСписокКоманд" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСписокКомандРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<Table name="ТаблицаКоманд" id="36">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<Height>1</Height>
+					<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+					<SelectionMode>SingleRow</SelectionMode>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<Header>false</Header>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>ТаблицаКоманд</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<SearchStringLocation>None</SearchStringLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТаблицаКомандКонтекстноеМеню" id="37"/>
+					<AutoCommandBar name="ТаблицаКомандКоманднаяПанель" id="38">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ТаблицаКомандРасширеннаяПодсказка" id="39"/>
+					<SearchStringAddition name="ТаблицаКомандСтрокаПоиска" id="40">
+						<AdditionSource>
+							<Item>ТаблицаКоманд</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаКомандСтрокаПоискаКонтекстноеМеню" id="41"/>
+						<ExtendedTooltip name="ТаблицаКомандСтрокаПоискаРасширеннаяПодсказка" id="42"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаКомандСостояниеПросмотра" id="43">
+						<AdditionSource>
+							<Item>ТаблицаКоманд</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаКомандСостояниеПросмотраКонтекстноеМеню" id="44"/>
+						<ExtendedTooltip name="ТаблицаКомандСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаКомандУправлениеПоиском" id="46">
+						<AdditionSource>
+							<Item>ТаблицаКоманд</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаКомандУправлениеПоискомКонтекстноеМеню" id="47"/>
+						<ExtendedTooltip name="ТаблицаКомандУправлениеПоискомРасширеннаяПодсказка" id="48"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ТаблицаКомандВыбор</Event>
+					</Events>
+					<ChildItems>
+						<ColumnGroup name="ПерваяКолонка" id="49">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Первая колонка</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Первая колонка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ПерваяКолонкаРасширеннаяПодсказка" id="50"/>
+							<ChildItems>
+								<InputField name="ТаблицаКомандОписаниеКоманды" id="54">
+									<DataPath>ТаблицаКоманд.ОписаниеКоманды</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Height>1</Height>
+									<ContextMenu name="ТаблицаКомандОписаниеКомандыКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ТаблицаКомандОписаниеКомандыРасширеннаяПодсказка" id="56"/>
+								</InputField>
+								<InputField name="ТаблицаКомандПояснение" id="57">
+									<DataPath>ТаблицаКоманд.Пояснение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Height>4</Height>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="style:NormalTextFont" height="7" kind="StyleItem"/>
+									<ContextMenu name="ТаблицаКомандПояснениеКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ТаблицаКомандПояснениеРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="СсылкаДляОтзываВМагазине" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка для отзыва в магазине</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТаблицаКоманд" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Команда" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОписаниеКоманды" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание команды</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пояснение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

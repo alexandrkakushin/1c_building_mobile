@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="b51e3538-13a7-4af9-92b4-4e2d4a518680">
+		<Properties>
+			<Name>УправлениеДоговорами</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление договорами</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">18a7d6e0-d693-489b-bccc-d32c492689a6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9c2769ce-c30d-4d39-8372-23aa26682b17</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">bd8e2abe-ada1-4350-a6a0-508f1d720e67</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПерейтиВСписанияДенежныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">60fa5bde-4619-4b0e-b9a2-d2ec70eb51c7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">124226ad-b058-4d9b-9e34-bbf898148020</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

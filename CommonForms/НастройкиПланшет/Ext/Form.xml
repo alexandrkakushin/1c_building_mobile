@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Settings</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<Group>Horizontal</Group>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="КолонкаСписокРазделов" id="405">
+			<EnableContentChange>true</EnableContentChange>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка список разделов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка список разделов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Height>1</Height>
+			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="КолонкаСписокРазделовРасширеннаяПодсказка" id="406"/>
+			<ChildItems>
+				<Page name="Разделы" id="403">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разделы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>20</Width>
+					<Height>1</Height>
+					<VerticalStretch>true</VerticalStretch>
+					<ScrollOnCompress>true</ScrollOnCompress>
+					<ExtendedTooltip name="РазделыРасширеннаяПодсказка" id="404"/>
+					<ChildItems>
+						<Table name="СписокРазделов" id="1">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Height>1</Height>
+							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+							<RowSelectionMode>Row</RowSelectionMode>
+							<Header>false</Header>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<HorizontalStretch>false</HorizontalStretch>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>СписокРазделов</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокРазделовКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="СписокРазделовКоманднаяПанель" id="3">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокРазделовРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="СписокРазделовСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>СписокРазделов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокРазделовСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="СписокРазделовСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокРазделовСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>СписокРазделов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокРазделовСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="СписокРазделовСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокРазделовУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>СписокРазделов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокРазделовУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="СписокРазделовУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">СписокРазделовВыбор</Event>
+								<Event name="OnActivateRow">СписокРазделовПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="СписокРазделовОписание" id="280">
+									<DataPath>СписокРазделов.Описание</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокРазделовОписаниеКонтекстноеМеню" id="281"/>
+									<ExtendedTooltip name="СписокРазделовОписаниеРасширеннаяПодсказка" id="282"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<Pages name="КолонкаСтраницы" id="398">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="КолонкаСтраницыРасширеннаяПодсказка" id="399"/>
+			<ChildItems>
+				<Page name="Подключение" id="114">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Connection</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подключение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>false</VerticalStretch>
+					<ScrollOnCompress>true</ScrollOnCompress>
+					<ExtendedTooltip name="ПодключениеРасширеннаяПодсказка" id="115"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокРазделаПодключение" id="226">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font bold="true" kind="AutoFont"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подключение</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Connection</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ЗаголовокРазделаПодключениеКонтекстноеМеню" id="227"/>
+							<ExtendedTooltip name="ЗаголовокРазделаПодключениеРасширеннаяПодсказка" id="228"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПодключение" id="188">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подключение</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПодключениеРасширеннаяПодсказка" id="189"/>
+							<ChildItems>
+								<InputField name="НаборКонстантАдресЦентральнойБазы" id="118">
+									<DataPath>НаборКонстант.АдресЦентральнойБазы</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<TitleLocation>Top</TitleLocation>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+									<ContextMenu name="НаборКонстантАдресЦентральнойБазыКонтекстноеМеню" id="119"/>
+									<ExtendedTooltip name="НаборКонстантАдресЦентральнойБазыРасширеннаяПодсказка" id="120"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантАдресЦентральнойБазыПриИзменении</Event>
+									</Events>
+								</InputField>
+								<LabelDecoration name="ДекорацияАдресПояснение" id="121">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Адрес вводится такой же, как при работе в браузере. Например, https://servername.org/DOPublication</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияАдресПояснениеКонтекстноеМеню" id="122"/>
+									<ExtendedTooltip name="ДекорацияАдресПояснениеРасширеннаяПодсказка" id="123"/>
+								</LabelDecoration>
+								<InputField name="НаборКонстантПользовательЦентральнойБазы" id="124">
+									<DataPath>НаборКонстант.ПользовательЦентральнойБазы</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<TitleLocation>Top</TitleLocation>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+									<ContextMenu name="НаборКонстантПользовательЦентральнойБазыКонтекстноеМеню" id="125"/>
+									<ExtendedTooltip name="НаборКонстантПользовательЦентральнойБазыРасширеннаяПодсказка" id="126"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантПользовательЦентральнойБазыПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="НаборКонстантПарольПользователя" id="127">
+									<DataPath>НаборКонстант.ПарольПользователя</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<TitleLocation>Top</TitleLocation>
+									<PasswordMode>true</PasswordMode>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+									<ContextMenu name="НаборКонстантПарольПользователяКонтекстноеМеню" id="128"/>
+									<ExtendedTooltip name="НаборКонстантПарольПользователяРасширеннаяПодсказка" id="129"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантПарольПользователяПриИзменении</Event>
+									</Events>
+								</InputField>
+								<UsualGroup name="ГруппаМаксимальныйРазмерФайла" id="418">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа максимальный размер файла</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ГруппаМаксимальныйРазмерФайлаРасширеннаяПодсказка" id="419"/>
+									<ChildItems>
+										<InputField name="НаборКонстантМаксимальныйРазмерФайла" id="130">
+											<DataPath>НаборКонстант.МаксимальныйРазмерФайла</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<TitleTextColor>style:FieldTextColor</TitleTextColor>
+											<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+											<TitleLocation>Top</TitleLocation>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ListChoiceMode>true</ListChoiceMode>
+											<ChooseType>false</ChooseType>
+											<TextEdit>false</TextEdit>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Загружать только заголовки</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">1</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>100 кб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">100</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>200 кб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">200</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>300 кб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">300</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>400 кб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">400</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>500 кб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">500</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>1 мб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">1024</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>2 мб</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">2048</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Всегда загружать полностью</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">0</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<TextColor>web:DimGray</TextColor>
+											<Font ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+											<ContextMenu name="НаборКонстантМаксимальныйРазмерФайлаКонтекстноеМеню" id="131"/>
+											<ExtendedTooltip name="НаборКонстантМаксимальныйРазмерФайлаРасширеннаяПодсказка" id="132"/>
+											<Events>
+												<Event name="OnChange">НаборКонстантМаксимальныйРазмерФайлаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<LabelDecoration name="ДекорацияРазмерФайловТекст" id="133">
+											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>web:DimGray</TextColor>
+											<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка максимального размера для файлов, которые будут полностью передаваться на мобильный клиент. Файлы большего размера будут загружены при открытии.</v8:content>
+												</v8:item>
+											</Title>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ДекорацияРазмерФайловТекстКонтекстноеМеню" id="134"/>
+											<ExtendedTooltip name="ДекорацияРазмерФайловТекстРасширеннаяПодсказка" id="135"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаФоноваяСинхронизация" id="427">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа фоновая синхронизация</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаФоноваяСинхронизацияРасширеннаяПодсказка" id="428"/>
+							<ChildItems>
+								<CheckBoxField name="НаборКонстантФоноваяСинхронизация" id="429">
+									<DataPath>НаборКонстант.ИспользоватьФоновуюСинхронизацию</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Фоновая синхронизация</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Background sync</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантФоноваяСинхронизацияКонтекстноеМеню" id="430"/>
+									<ExtendedTooltip name="НаборКонстантФоноваяСинхронизацияРасширеннаяПодсказка" id="431"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантИспользоватьФоновуюСинхронизациюПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияФоноваяСинхронизация" id="446">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="7" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При старте приложения обмен будет запускаться автоматически.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Sync will be launch automaticaly at startup.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияФоноваяСинхронизацияКонтекстноеМеню" id="447"/>
+									<ExtendedTooltip name="ДекорацияФоноваяСинхронизацияРасширеннаяПодсказка" id="448"/>
+								</LabelDecoration>
+								<CheckBoxField name="НаборКонстантИспользоватьТолькоWiFi" id="435">
+									<DataPath>НаборКонстант.ИспользоватьТолькоWiFi</DataPath>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантИспользоватьТолькоWiFiКонтекстноеМеню" id="436"/>
+									<ExtendedTooltip name="НаборКонстантИспользоватьТолькоWiFiРасширеннаяПодсказка" id="437"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантИспользоватьТолькоWiFiПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияИспользоватьТолькоWiFi" id="432">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="7" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разрешить фоновую загрузку данных только при наличии Wi-Fi.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Allow update the content in the background only if Wi-Fi accessible.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияИспользоватьТолькоWiFiКонтекстноеМеню" id="433"/>
+									<ExtendedTooltip name="ДекорацияИспользоватьТолькоWiFiРасширеннаяПодсказка" id="434"/>
+								</LabelDecoration>
+								<CheckBoxField name="НаборКонстантОтправлятьДанныеСразу" id="136">
+									<DataPath>НаборКонстант.ОтправлятьДанныеСразу</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантОтправлятьДанныеСразуКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="НаборКонстантОтправлятьДанныеСразуРасширеннаяПодсказка" id="138"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантОтправлятьДанныеСразуПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияОтправлятьДанныеСразу" id="139">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если включено, то при записи новых писем будет выполнена попытка отправить их на сервер сразу, не дожидаясь следующего сеанса синхронизации.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияОтправлятьДанныеСразуКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="ДекорацияОтправлятьДанныеСразуРасширеннаяПодсказка" id="141"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПротокол" id="438">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа протокол</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПротоколРасширеннаяПодсказка" id="439"/>
+							<ChildItems>
+								<CheckBoxField name="НаборКонстантПодробнаяИнформацияВПротоколе" id="148">
+									<DataPath>НаборКонстант.ПодробнаяИнформацияОСинхронизации</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантПодробнаяИнформацияВПротоколеКонтекстноеМеню" id="149"/>
+									<ExtendedTooltip name="НаборКонстантПодробнаяИнформацияВПротоколеРасширеннаяПодсказка" id="150"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантПодробнаяИнформацияВПротоколеПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияВестиПодробныйПротоколРаботы" id="151">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если включено, то при синхронизации в протокол будет записываться подробная техническая информация, которая поможет при разборе ошибок.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияВестиПодробныйПротоколРаботыКонтекстноеМеню" id="152"/>
+									<ExtendedTooltip name="ДекорацияВестиПодробныйПротоколРаботыРасширеннаяПодсказка" id="153"/>
+								</LabelDecoration>
+								<CheckBoxField name="НаборКонстантВыгружатьПротоколСобытийНаСервер" id="142">
+									<DataPath>НаборКонстант.ВыгружатьПротоколСобытийНаСервер</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантВыгружатьПротоколСобытийНаСерверКонтекстноеМеню" id="143"/>
+									<ExtendedTooltip name="НаборКонстантВыгружатьПротоколСобытийНаСерверРасширеннаяПодсказка" id="144"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантВыгружатьПротоколСобытийНаСерверПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияВыгружатьПротоколТекст" id="145">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если включено, то при синхронизации на сервер будут отправляться записи протокола работы клиента. Они будут доступны администратору для диагностики работы. Для экономии трафика выгрузку можно отключить.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияВыгружатьПротоколТекстКонтекстноеМеню" id="146"/>
+									<ExtendedTooltip name="ДекорацияВыгружатьПротоколТекстРасширеннаяПодсказка" id="147"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаПароль" id="190">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пароль</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПарольРасширеннаяПодсказка" id="191"/>
+							<ChildItems>
+								<CheckBoxField name="НаборКонстантИспользоватьПароль" id="390">
+									<DataPath>НаборКонстант.ИспользоватьПароль</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<TitleFont ref="sys:DefaultGUIFont" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="НаборКонстантИспользоватьПарольКонтекстноеМеню" id="391"/>
+									<ExtendedTooltip name="НаборКонстантИспользоватьПарольРасширеннаяПодсказка" id="392"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантИспользоватьПарольПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияИспользоватьПароль" id="393">
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>web:DimGray</TextColor>
+									<Font faceName="MS Shell Dlg" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Приложение будет запрашивать пароль при запуске</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ДекорацияИспользоватьПарольКонтекстноеМеню" id="394"/>
+									<ExtendedTooltip name="ДекорацияИспользоватьПарольРасширеннаяПодсказка" id="395"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Уведомления" id="340">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Notifications</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомления</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalStretch>false</VerticalStretch>
+					<ScrollOnCompress>true</ScrollOnCompress>
+					<ExtendedTooltip name="УведомленияРасширеннаяПодсказка" id="341"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокУведомления" id="400">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font bold="true" kind="AutoFont"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Уведомления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Notifications</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ЗаголовокУведомленияКонтекстноеМеню" id="401"/>
+							<ExtendedTooltip name="ЗаголовокУведомленияРасширеннаяПодсказка" id="402"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаЛокальныеУведомления" id="342">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Local events</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Уведомления</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаЛокальныеУведомленияРасширеннаяПодсказка" id="343"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьЛокальныеУведомления" id="344">
+									<DataPath>НаборКонстант.ИспользоватьЛокальныеУведомления</DataPath>
+									<TitleTextColor>style:FieldTextColor</TitleTextColor>
+									<CheckBoxType>Tumbler</CheckBoxType>
+									<ContextMenu name="ИспользоватьЛокальныеУведомленияКонтекстноеМеню" id="345"/>
+									<ExtendedTooltip name="ИспользоватьЛокальныеУведомленияРасширеннаяПодсказка" id="346"/>
+									<Events>
+										<Event name="OnChange">ИспользоватьЛокальныеУведомленияПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<LabelDecoration name="ДекорацияИспользоватьЛокальныеУведомления" id="385">
+									<TextColor>web:DimGray</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="7" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если включено, то на устройстве можно установить уведомления о событиях требующих вашего внимания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Notifications will appears on device when you need</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияИспользоватьЛокальныеУведомленияКонтекстноеМеню" id="386"/>
+									<ExtendedTooltip name="ДекорацияИспользоватьЛокальныеУведомленияРасширеннаяПодсказка" id="387"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Сервис" id="154">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сервис</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Service</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" height="8" kind="WindowsFont"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сервис</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<ScrollOnCompress>true</ScrollOnCompress>
+					<ExtendedTooltip name="СервисРасширеннаяПодсказка" id="155"/>
+					<ChildItems>
+						<LabelDecoration name="ЗаголовокРазделаСервис" id="229">
+							<HorizontalStretch>true</HorizontalStretch>
+							<Font bold="true" kind="AutoFont"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сервис</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ЗаголовокРазделаСервисКонтекстноеМеню" id="230"/>
+							<ExtendedTooltip name="ЗаголовокРазделаСервисРасширеннаяПодсказка" id="231"/>
+						</LabelDecoration>
+						<Table name="КомандыСервис" id="256">
+							<Representation>List</Representation>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<Height>1</Height>
+							<HeightInTableRows>3</HeightInTableRows>
+							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>КомандыСервис</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомандыСервисКонтекстноеМеню" id="257"/>
+							<AutoCommandBar name="КомандыСервисКоманднаяПанель" id="258">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КомандыСервисРасширеннаяПодсказка" id="259"/>
+							<SearchStringAddition name="КомандыСервисСтрокаПоиска" id="260">
+								<AdditionSource>
+									<Item>КомандыСервис</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСервисСтрокаПоискаКонтекстноеМеню" id="261"/>
+								<ExtendedTooltip name="КомандыСервисСтрокаПоискаРасширеннаяПодсказка" id="262"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомандыСервисСостояниеПросмотра" id="263">
+								<AdditionSource>
+									<Item>КомандыСервис</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСервисСостояниеПросмотраКонтекстноеМеню" id="264"/>
+								<ExtendedTooltip name="КомандыСервисСостояниеПросмотраРасширеннаяПодсказка" id="265"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомандыСервисУправлениеПоиском" id="266">
+								<AdditionSource>
+									<Item>КомандыСервис</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСервисУправлениеПоискомКонтекстноеМеню" id="267"/>
+								<ExtendedTooltip name="КомандыСервисУправлениеПоискомРасширеннаяПодсказка" id="268"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КомандыСервисВыбор</Event>
+							</Events>
+							<ChildItems>
+								<ColumnGroup name="КомандыСервисПерваяКолонка" id="269">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды сервис первая колонка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды сервис первая колонка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ExtendedTooltip name="КомандыСервисПерваяКолонкаРасширеннаяПодсказка" id="270"/>
+									<ChildItems>
+										<InputField name="КомандыСервисПредставление" id="274">
+											<DataPath>КомандыСервис.Представление</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Height>1</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="КомандыСервисПредставлениеКонтекстноеМеню" id="275"/>
+											<ExtendedTooltip name="КомандыСервисПредставлениеРасширеннаяПодсказка" id="276"/>
+										</InputField>
+										<InputField name="КомандыСервисПояснение" id="277">
+											<DataPath>КомандыСервис.Пояснение</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Height>3</Height>
+											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>web:DarkGray</TextColor>
+											<Font height="7" kind="AutoFont"/>
+											<ContextMenu name="КомандыСервисПояснениеКонтекстноеМеню" id="278"/>
+											<ExtendedTooltip name="КомандыСервисПояснениеРасширеннаяПодсказка" id="279"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="СписокРазделов" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список разделов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Раздел" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раздел</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Картинка" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Описание" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="НаборКонстант" id="2">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>НаборКонстант.АдресЦентральнойБазы</Field>
+				<Field>НаборКонстант.ИспользоватьПароль</Field>
+				<Field>НаборКонстант.ИспользоватьТолькоWiFi</Field>
+				<Field>НаборКонстант.ИспользоватьФоновуюСинхронизацию</Field>
+				<Field>НаборКонстант.ОтправлятьДанныеСразу</Field>
+				<Field>НаборКонстант.ПоУмолчаниюОтвечатьВсем</Field>
+				<Field>НаборКонстант.ПользовательЦентральнойБазы</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="КомандыСервис" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды сервис</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Команда" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пояснение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КомандыСинхронизацииПапок" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды синхронизации папок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Команда" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пояснение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пояснение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="РазрешитьPushУведомления" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешить уведомления</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable notifications</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:use>false</dcsset:use>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>НаборКонстантАдресЦентральнойБазы</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>НаборКонстантПользовательЦентральнойБазы</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="xs:boolean">true</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Отображать</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="НастройкаСинхронизацииПапок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация папок писем...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка синхронизации папок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкаСинхронизацииПапок</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
