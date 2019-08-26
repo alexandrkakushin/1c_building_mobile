@@ -70,8 +70,8 @@
 		<Metadata name="CommonModule.ЛокальныеУведомленияКлиент.Module" id="47fe1617-9403-4415-9dc9-f56f46ecb416.0" configVersion="0835f088f6f21049b69806dd24386bdd00000000"/>
 		<Metadata name="CommonModule.ОбменВызовСервера" id="563b587b-e38f-4c31-a5b4-62bf123ea048" configVersion="f7ebf1a87040554b9eb422d59579252500000000"/>
 		<Metadata name="CommonModule.ОбменВызовСервера.Module" id="563b587b-e38f-4c31-a5b4-62bf123ea048.0" configVersion="e7ec29dc8b616945a39d1586ff5a429000000000"/>
-		<Metadata name="CommonModule.ОбменВызовСервераПовтИсп" id="0b2c4332-62fe-4523-b1a6-83142f7d89bf" configVersion="74e8a0ceb092d04a950862ed62b681a300000000"/>
-		<Metadata name="CommonModule.ОбменВызовСервераПовтИсп.Module" id="0b2c4332-62fe-4523-b1a6-83142f7d89bf.0" configVersion="dfa3357aebde6e469ab01fe198f75df300000000"/>
+		<Metadata name="CommonModule.ОбменВызовСервераПовтИсп" id="0b2c4332-62fe-4523-b1a6-83142f7d89bf" configVersion="7f770a3008c34840b8be09cb1dbf782400000000"/>
+		<Metadata name="CommonModule.ОбменВызовСервераПовтИсп.Module" id="0b2c4332-62fe-4523-b1a6-83142f7d89bf.0" configVersion="0420469cd6f4bd41830040f39bbb10f700000000"/>
 		<Metadata name="CommonModule.ОбменДемоДанныеВызовСервера" id="09b1031f-cac5-48d9-80e0-c9809a9ee4ad" configVersion="bc5e34c4b72a0246b3261284bb20ee9300000000"/>
 		<Metadata name="CommonModule.ОбменДемоДанныеВызовСервера.Module" id="09b1031f-cac5-48d9-80e0-c9809a9ee4ad.0" configVersion="7da9483288836340861f23a03673f47d00000000"/>
 		<Metadata name="CommonModule.ОбменИмпорт" id="feef74fc-20e2-49d2-9133-25068e06d937" configVersion="515ddde8fd23794385b475c60d7ca9e300000000"/>
@@ -389,7 +389,7 @@
 		<Metadata name="Constant.ТекущийРаздел" id="b3be8043-1537-4589-a1f0-85e832818e45" configVersion="3ec606f7b4998f4fb2add04adbe0599000000000"/>
 		<Metadata name="Constant.ХешПароля" id="8876b6a2-6371-40de-bf14-27a9fdd6ce5b" configVersion="dda86a45120f5c408002fb0c6cd9ca6500000000"/>
 		<Metadata name="Constant.ЭтоДемоРежим" id="20f83f67-deff-4153-8c38-1dad7d163f54" configVersion="e98c3df5e79143459131695f37d4015a00000000"/>
-		<Metadata name="Document.СписаниеДенежныхСредств" id="8c019966-d7a3-4cc1-8908-86d76ed8aee3" configVersion="724e65eecc9be749a1a9642a1f93e86f00000000">
+		<Metadata name="Document.СписаниеДенежныхСредств" id="8c019966-d7a3-4cc1-8908-86d76ed8aee3" configVersion="4f990c4d80822940afd1b8dbce34ee5f00000000">
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.Объект" id="0958dc0e-3bf0-4b09-9dc9-7101c05e2433"/>
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.СтатьяРасходов" id="15b79054-1e69-4dcc-940f-b656a9769d55"/>
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.Сумма" id="2205ba26-7883-4ed5-875f-1c905d53f937"/>
