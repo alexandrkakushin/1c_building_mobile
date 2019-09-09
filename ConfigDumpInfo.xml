@@ -389,7 +389,7 @@
 		<Metadata name="Constant.ТекущийРаздел" id="b3be8043-1537-4589-a1f0-85e832818e45" configVersion="3ec606f7b4998f4fb2add04adbe0599000000000"/>
 		<Metadata name="Constant.ХешПароля" id="8876b6a2-6371-40de-bf14-27a9fdd6ce5b" configVersion="dda86a45120f5c408002fb0c6cd9ca6500000000"/>
 		<Metadata name="Constant.ЭтоДемоРежим" id="20f83f67-deff-4153-8c38-1dad7d163f54" configVersion="e98c3df5e79143459131695f37d4015a00000000"/>
-		<Metadata name="Document.СписаниеДенежныхСредств" id="8c019966-d7a3-4cc1-8908-86d76ed8aee3" configVersion="4f990c4d80822940afd1b8dbce34ee5f00000000">
+		<Metadata name="Document.СписаниеДенежныхСредств" id="8c019966-d7a3-4cc1-8908-86d76ed8aee3" configVersion="8f28248f6a2fb44ba53c08c5e1fc3f0700000000">
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.Объект" id="0958dc0e-3bf0-4b09-9dc9-7101c05e2433"/>
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.СтатьяРасходов" id="15b79054-1e69-4dcc-940f-b656a9769d55"/>
 			<Metadata name="Document.СписаниеДенежныхСредств.Attribute.Сумма" id="2205ba26-7883-4ed5-875f-1c905d53f937"/>
